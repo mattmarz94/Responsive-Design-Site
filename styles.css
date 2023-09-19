@@ -86,6 +86,10 @@ a:active {
 
 /* ----- LAYOUT ----- */
 
+header nav li {
+    list-style-type: none;
+}
+
 header, 
 section, 
 footer {
@@ -142,6 +146,7 @@ footer {
 
     nav {
         margin-top: 1.5em;
+        list-style-type: none;
     }
  
     li:not(:last-child) {
